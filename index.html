@@ -1,46 +1,157 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<!--suppress HtmlUnknownTarget -->
+<html lang="en">
 <head>
-<title>WIT IEEE WRT Router</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anon$
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="shortcut icon" href="/luci-static/bootstrap/favicon.ico">
-
-<meta http-equiv="Cache-Control" content="no-cache" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>WIT IEEE WRT Router</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="css/2-col.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/luci-static/bootstrap/favicon.ico">
 </head>
 <body>
-<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-light border-bottom box-shadow">
-  <h5 class="my-0 mr-md-auto font-weight-normal">WIT IEEE WRT Router</h5>
-  <a class="btn btn-outline-primary" href="/cgi-bin/luci/admin/status/">Router Status</a>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">WIT IEEE WRT Router</a>
+        <div id="navbarResponsive">
+            <a class="btn btn-primary" href="/cgi-bin/luci/admin/status/">Router Status</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Page Heading -->
+    <h1 class="my-4">IEEE 3D Printers
+    </h1>
+
+    <div class="row">
+        <div class="col-lg-6 portfolio-item">
+            <div class="card h-100">
+                <a id="topLeftImageLink" href="#"><img class="card-img-top" id="topLeftWebcamImage"
+                                                       src="http://via.placeholder.com/700x400?text=IMAGE+UNAVAILABLE"
+                                                       alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a id="topLeftLink" href="#"></a>
+                    </h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod
+                        odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+            <div class="card h-100">
+                <a id="topRightImageLink" href="#"><img class="card-img-top" id="topRightWebcamImage"
+                                                        src="http://via.placeholder.com/700x400?text=IMAGE+UNAVAILABLE"
+                                                        alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a id="topRightLink" href="#"></a>
+                    </h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam
+                        nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non
+                        magni, voluptates quae, necessitatibus unde temporibus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+            <div class="card h-100">
+                <a id="bottomLeftImageLink" href="#"><img class="card-img-top" id="bottomLeftWebcamImage"
+                                                          src="http://via.placeholder.com/700x400?text=IMAGE+UNAVAILABLE"
+                                                          alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a id="bottomLeftLink" href="#"></a>
+                    </h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod
+                        odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+            <div class="card h-100">
+                <a id="bottomRightImageLink" href="#"><img class="card-img-top" id="bottomRightWebcamImage"
+                                                           src="http://via.placeholder.com/700x400?text=IMAGE+UNAVAILABLE"
+                                                           alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a id="bottomRightLink" href="#"></a>
+                    </h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam
+                        nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non
+                        magni, voluptates quae, necessitatibus unde temporibus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
 </div>
-<h1 align="center"><u>IEEE 3D Printers</u></h1>
-  <div class="row">
-    <div class="col">
-    <center>
-      <a id="stukmakenLink" href="#"><img src="https://raw.githubusercontent.com/Wentworth-IEEE/3D-Printers-Pi/master/server/imgs/Stukmaken.JPG" alt="Stukmaken"/>
-      <h2>Stukmaken</h2></a>
-      <a id="blackoutLink" href="#"><img src="https://raw.githubusercontent.com/Wentworth-IEEE/3D-Printers-Pi/master/server/imgs/Blackout.JPG" alt="Blackout"/>
-      <h2>Blackout</h2></a>
-    </center>
-    </div>
-    <div class="col">
-    <center>
-      <a id="europeanLink" href="#"><img src="https://raw.githubusercontent.com/Wentworth-IEEE/3D-Printers-Pi/master/server/imgs/TooEuropean.JPG" alt="Too European"/>
-      <h2>Too European</h2></a>
-      <a id="printer4Link" href="#"><img src="https://raw.githubusercontent.com/Wentworth-IEEE/3D-Printers-Pi/master/server/imgs/Printer4.JPG" alt="Printer4"/>
-      <h2>Printer4</h2></a>
-    </center>
-    </div>
-  </div>
+<!-- /.container -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
 <script type="text/javascript">
-var stukmakenLink = document.getElementById('stukmakenLink');
-stukmakenLink.href = "http://" + window.location.hostname + ":8081";
-var blackoutLink = document.getElementById('blackoutLink');
-blackoutLink.href = "http://" + window.location.hostname + ":8082";
-var europeanLink = document.getElementById('europeanLink');
-europeanLink.href = "http://" + window.location.hostname + ":8083";
-var printer4Link = document.getElementById('printer4Link');
-printer4Link.href = "http://" + window.location.hostname + ":8084";
+    const Printers = {
+        TOP_LEFT: {name: "Blackout", localIP: "10.0.0.6", remotePort: "8084", image: "img/Blackout.jpg"},
+        TOP_RIGHT: {name: "Stukmaken", localIP: "10.0.0.5", remotePort: "8083", image: "img/Stukmaken.jpg"},
+        BOTTOM_LEFT: {name: "Too European", localIP: "10.0.0.4", remotePort: "8082"},
+        BOTTOM_RIGHT: {name: "Printer 4", localIP: "10.0.0.3", remotePort: "8081"}
+    };
+
+    document.getElementById('topLeftLink').href = getPrinterURL(Printers.TOP_LEFT);
+    document.getElementById('topLeftLink').innerText = Printers.TOP_LEFT.name;
+    document.getElementById('topLeftImageLink').href = getPrinterURL(Printers.TOP_LEFT);
+    displayImageIfAvailable(document.getElementById('topLeftWebcamImage'), Printers.TOP_LEFT);
+
+    document.getElementById('topRightLink').href = getPrinterURL(Printers.TOP_RIGHT);
+    document.getElementById('topRightLink').innerText = Printers.TOP_RIGHT.name;
+    document.getElementById('topRightImageLink').href = getPrinterURL(Printers.TOP_RIGHT);
+    displayImageIfAvailable(document.getElementById('topRightWebcamImage'), Printers.TOP_RIGHT);
+
+    document.getElementById('bottomLeftLink').href = getPrinterURL(Printers.BOTTOM_LEFT);
+    document.getElementById('bottomLeftLink').innerText = Printers.BOTTOM_LEFT.name;
+    document.getElementById('bottomLeftImageLink').href = getPrinterURL(Printers.BOTTOM_LEFT);
+    displayImageIfAvailable(document.getElementById('bottomLeftWebcamImage'), Printers.BOTTOM_LEFT);
+
+    document.getElementById('bottomRightLink').href = getPrinterURL(Printers.BOTTOM_RIGHT);
+    document.getElementById('bottomRightLink').innerText = Printers.BOTTOM_RIGHT.name;
+    document.getElementById('bottomRightImageLink').href = getPrinterURL(Printers.BOTTOM_RIGHT);
+    displayImageIfAvailable(document.getElementById('bottomRightWebcamImage'), Printers.BOTTOM_RIGHT);
+
+    function getPrinterURL(printer) {
+        if (window.location.hostname.includes("10.0.0")) {
+            return printer.localIP;
+        } else {
+            return "http://" + window.location.hostname + ":" + printer.remotePort;
+        }
+    }
+
+    function displayImageIfAvailable(imageReference, printer) {
+        let webcamURL = getPrinterURL(printer) + "/webcam/?action=stream";
+        let request = new XMLHttpRequest();
+        request.open('GET', webcamURL, true);
+        request.send(); //Blocks until request is completed
+        if (request.status === 200) {
+            imageReference.src = webcamURL;
+        } else if (printer.image !== undefined) {
+            imageReference.src = printer.image;
+        }
+    }
 </script>
 </body>
 </html>
